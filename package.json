@@ -1,0 +1,19 @@
+{
+  "name": "scheduler",
+  "version": "1.0.0",
+  "description": "Worker Jadwal untuk Restart worker lain",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "keywords": [
+    "NodeJs",
+    "Cron"
+  ],
+  "author": "Asep Trisna Setiawan",
+  "license": "ISC",
+  "dependencies": {
+    "node-cron": "^3.0.3",
+    "pm2": "^5.3.1"
+  }
+}
